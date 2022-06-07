@@ -1,0 +1,124 @@
+.navbar{
+    background: linear-gradient(to right,#a39fcd,   blue );
+}
+
+.image-a{
+    width: 100%;
+    border-radius: 50px;
+}
+
+.order{
+    background: linear-gradient(to bottom,#83bbfa, white );
+    margin-top: 50px;
+    padding: 80px 0;
+}
+
+.order-item{
+    margin-left: 20px;
+    padding: 20px;
+    height: 100%;
+}
+
+.order-item>img{
+    width: 50%;
+}
+
+
+.logo-ing{
+    border-radius: 50px;
+    width: 100px;
+}
+
+.logo-sroyka{
+    border-radius: 50px;
+}
+
+.first{
+    background-image: url(1626987098_14-kartinkin-com-p-fon-bezhevii-mramor-s-zolotom-krasiv.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+
+*{
+    box-sizing: border-box;
+}
+pre{
+    font-size: 1.5rem;
+}
+body{
+    margin: 0;
+    background-color: #ccc;
+
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1rem;
+}
+.container-gg{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 100px;
+    background-color: red;
+    margin: 50px;
+    border-radius: 20px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+.btn-add{
+    padding: 10px 30px;
+    border-color: red;
+    border-radius: 30px;
+    font-weight: 900;
+    color: red;
+    font-size: 1.2rem;
+    text-shadow: 0px 1px 5px black;
+}
+ul{
+    padding-left: 0;
+}
+.notes-item{
+    list-style-type: none;
+    padding-left: 10px;
+    padding-bottom: 5px;  
+    margin: 20px;
+    margin-left: 0;
+    border-bottom: 2px solid greenyellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-del{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5rem;
+}
+
+.mobile{
+    margin-top: auto;
+}
+
+
+footer{
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+footer .text{
+    color: gray;
+    text-align: right;
+}
+.socio-item{
+    font-size: 2.3rem;
+    color: lightgray;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+.socio-item:hover{
+    color: aqua;
+    text-shadow: 0px 0px 7px white;
+}
